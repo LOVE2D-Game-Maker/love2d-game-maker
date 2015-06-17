@@ -1,0 +1,1 @@
+All binary releases of LÖVE Game Maker go here. :)
