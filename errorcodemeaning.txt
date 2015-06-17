@@ -1,4 +1,0 @@
-The following text file details the error codes the application displays upon crashing and what they mean.
-
-1: The nodes in the resource list at the left side of the project were non-existent for some reason.
-2: The settings.cfg file couldn't be read! You should try restarting the program as an administrator and en-suring the folder Love Game Maker was installed to is not read-only.

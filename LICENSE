@@ -1,0 +1,47 @@
+WARNING: The following file is full of legal gibberish we're legally required to add in order to protect our software.
+If all you want to do is make games.. don't worry about it! YOUR games made with Love Game Maker ARE YOURS and as such can
+be licensed or distributed in any way you please! You can even sell them if you'd like! Just don't mess with the licenses
+in the included LÖVE framework (Which Love Game maker uses to build your games.) and you'll be fine. ;)
+
+
+If a "license.txt" file is found within a directory, that license applies to all files in that directory. Changing the file/folder
+structure from default, of course, does not change which licenses apply to which files.
+
+All files that do not have a "license.txt" file in their directory in the state of install fall under the following
+non-commercial variation of the MIT license contained within the apostrophes:
+
+'Copyright (c) 2015 Radfordhound
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, and/or sublicense copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+Excluding works created using the Software, (Not derivative works of the Software
+itself.) the Software must not be sold in any form without permission from the
+original Software creator.
+
+Derivative works of the original Software must be clearly marked as such,
+and not claim to be the original Software. Stating exact changes is not
+required, although it would be appretciated.
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.'
+
+This license does not apply to games/applications made with the software, only the software itself
+as well as any derivative works of it. If you change the source code of Love Game Maker itself, it
+falls under this license. If you instead simply use it to create a game, that game is yours and may
+be licensed as you please.
+
+If you have any questions regarding the usage of this application not answered by this license, please
+contact the developer of the application at radfordhound@gmail.com. Thank you for using Love Game Maker.

@@ -1,3 +1,0 @@
-~~/\ACTION/\~~ Create Object Instance ~arg~ 1 ~arg~ 0 ~arg~ 0 ~appliesto~ 1
-	local obj = require('{0}')
-	table.insert(rooms[currentrm+1].objects,obj({1},{2}))

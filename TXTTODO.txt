@@ -1,4 +1,0 @@
-This file details the text we'll need written for the project.
-It will be updated periodically as our needs/the project status change.
-
-Right now the main thing is documentation. Full engine documentation would be absolutely lovely. :)
