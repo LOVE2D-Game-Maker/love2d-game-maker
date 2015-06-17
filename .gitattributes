@@ -1,2 +1,2 @@
 $ cat .gitattributes
-LGM/bin/MacOSX/64bit/LGM.app/Contents/* linguist-vendored=false
+LGM/bin/MacOSX/64bit/LGM.app/Contents/* linguist-vendored
