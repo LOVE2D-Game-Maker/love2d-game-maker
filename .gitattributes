@@ -1,0 +1,2 @@
+$ cat .gitattributes
+LGM/bin/MacOSX/64bit/LGM.app/Contents/* linguist-vendored
