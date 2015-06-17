@@ -1,4 +1,4 @@
-﻿<div align="center"><img src="https://raw.githubusercontent.com/Radfordhound/love2d-game-maker/master/art/logos/Love2d%20Game%20Maker%20General%20Maze.png" width="480" height="270" alt="LÖVE Game Maker logo" title="LÖVE Game Maker logo"></img></div>
+﻿<div align="center"><img src="https://raw.githubusercontent.com/Radfordhound/love2d-game-maker/master/Project%20Resources/art/Project%20Logos/Love2d%20Game%20Maker%20General%20Maze.png" width="480" height="270" alt="LÖVE Game Maker logo" title="LÖVE Game Maker logo"></img></div>
 
 A development tool designed for easy creation of games using the LÖVE open-source game framework based off of "[Game Maker](https://www.yoyogames.com/studio)" by Mark Overmans.
 
