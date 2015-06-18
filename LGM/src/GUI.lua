@@ -7,7 +7,12 @@
 --This way the various versions of the application can have completely different GUI.lua
 --files, and still have the same exact versions of all the other files. ;)
 
---First, let's load and define some stuff.
+--First, let's load and define some stuff.]
+local path = (...):gsub('GUI','') -- gets the path used to require this file. 
+print(path)
+local Bubble = require(path..'.bubble')
+local Group = require(path..'.group')
+local bubbles = Group()
 MenuItems = {"File","Edit","View","Tools","Help"}
 MenuAltChars = {'F','E','V','T','H'}
 
@@ -51,7 +56,7 @@ function love.mousepressed(x, y, button)
 			for i, rstype in ipairs(Resources.Types) do
 				if x >= 5 and x <= Ternary((table.getn(Resources[i]) > 0 and Resources[i].expanded ~= nil and Resources[i].expanded),17,15)+love.graphics.getFont():getWidth(rstype) and y >= y2 and y <= y2+16 then
 					if table.getn(Resources[i]) < 1 then
-						Bubble(x,y,x+20,y+20,200,"There are no " .. Resources.Types[i] .. "!\n\nYou need to add some\nbefore you can expand the\nlist. ;)")
+						bubbles:add(Bubble(x,y,x+20,y+20,3.2,"There are no " .. Resources.Types[i] .. "!\n\nYou need to add some\nbefore you can expand the\nlist. ;)"))
 					else
 						Resources[i].expanded = not Resources[i].expanded
 					end
@@ -88,6 +93,7 @@ function love.update(dt)
 	elseif rslistexpanded and rslistx < 0 then
 		rslistx = rslistx + 10
 	end
+	bubbles:update(dt)
 end
 
 function love.draw()
@@ -161,6 +167,7 @@ function love.draw()
 	end
 	
 	--And, lastly, any other minor things that need to be drawn.
-	DrawBubbles()
+	--DrawBubbles()
+	bubbles:draw()
 	love.graphics.setColor(255,255,255) --Reset the color to white.
 end
