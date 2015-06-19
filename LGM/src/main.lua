@@ -3,7 +3,7 @@
 --Require ALL the things! :D
 require 'libraries.hump' --Load HUMP.
 require 'resources'
-require 'bubble'
+--require 'bubble'
 require 'GUI'
 
 --Make some functions

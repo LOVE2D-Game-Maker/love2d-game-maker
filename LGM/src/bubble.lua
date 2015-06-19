@@ -3,7 +3,9 @@
 
 --As of now, this file is kind of a mess. ._.
 
-Bubble = Class{}
+--We should try to phase out the use of love.mouse.getPosition and other global functions inside our methods it will hel keep the code clean and more bug free.
+
+local Bubble = Class{}
 Bubbles = {}
 
 function Bubble:init(mx,my,x,y,tm,text)
@@ -25,11 +27,19 @@ function Bubble:init(mx,my,x,y,tm,text)
 	self.fadingin = true
 	self.fadingout = false
 	self.A = 0
-	
-	table.insert(Bubbles,self)
+
 end
 
-function Bubble:Draw()
+function Bubble:update( dt )
+	self.t = self.t - 1*dt
+	if self.t <= 0 and not self.fadingout then
+		self.fadingout = true
+	elseif self.fadingout and self.A <= 0 then
+		self.dead = true
+	end
+end
+
+function Bubble:draw() -- changed to lowercase to match love naming conventions for callbacks
 	local mx,my = love.mouse.getX(), love.mouse.getY()
 	love.graphics.setColor(50,81,255,self.A)
 	love.graphics.polygon("fill",mx,my,self.x,self.y,self.x-20,self.y2)
@@ -54,15 +64,25 @@ function Bubble:Draw()
 	end
 end
 
-function DrawBubbles()
-	for b, bubble in ipairs(Bubbles) do
-		bubble:Draw()
-		bubble.t = bubble.t - 1
-		
-		if bubble.t <= 0 and not bubble.fadingout then
-			bubble.fadingout = true
-		elseif bubble.fadingout and bubble.A <= 0 then
-			table.remove(Bubbles,b)
-		end
-	end
+function Bubble:getDead( )
+
+	return self.dead
+
 end
+
+function Bubble:setID( id )
+	self.id = id
+
+end
+
+function Bubble:getID()
+	return self.id
+
+end
+
+function Bubble:destroy( )
+
+end
+
+
+return Bubble 
