@@ -8,11 +8,14 @@
 --files, and still have the same exact versions of all the other files. ;)
 
 --First, let's load and define some stuff.]
+
 local path = (...):gsub('GUI','') -- gets the path used to require this file. 
-print(path)
+
 local Bubble = require(path..'.bubble')
+
 local Group = require(path..'.group')
 local bubbles = Group()
+
 MenuItems = {"File","Edit","View","Tools","Help"}
 MenuAltChars = {'F','E','V','T','H'}
 

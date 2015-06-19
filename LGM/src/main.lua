@@ -3,9 +3,12 @@
 --Require ALL the things! :D
 require 'libraries.hump' --Load HUMP.
 require 'resources'
+require 'pl'
 --require 'bubble'
 require 'GUI'
-
+lfs = require('lfs')
+lfs.chdir('.')
+print(lfs.currentdir())
 --Make some functions
 function Ternary (cond,val1,val2)
 	if cond ~= nil and cond then
