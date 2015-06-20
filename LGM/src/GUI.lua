@@ -9,6 +9,7 @@
 
 --First, let's load and define some stuff.]
 
+
 local path = (...):gsub('GUI','') -- gets the path used to require this file. 
 
 local Bubble = require(path..'.bubble')
@@ -23,7 +24,7 @@ arrow = love.graphics.newImage("Resources/Images/arrow.png")
 arrow2 = love.graphics.newImage("Resources/Images/arrowexpand.png")
 
 ToolbarTools = {
-	{love.graphics.newImage("Resources/Images/new.png"),10,30},
+	{love.graphics.newImage("Resources/Images/new.png"),10,30,newProject,testProjectDir, testProjectName},
 	{love.graphics.newImage("Resources/Images/open.png"),40,34},
 	{love.graphics.newImage("Resources/Images/save.png"),70,30},
 	{"separator",104},
@@ -80,10 +81,14 @@ function love.mousepressed(x, y, button)
 		
 		for i, tool in ipairs(ToolbarTools) do
 			if tool[1] ~= "separator" and mx >= tool[2] and mx <= tool[2]+30 and my >= tool[3] and my <= tool[3]+30 and tool[4] ~= nil then
+				print("hry")
 				if tool[5] == nil then
 					tool[4]()
-				else
+				elseif tool[6] == nil then
 					tool[4](tool[5])
+				else
+					tool[4](tool[5],tool[6])	
+
 				end
 			end
 		end
