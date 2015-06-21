@@ -1,2 +1,5 @@
 olddevstuff/
 LGM/buildbinariespreset.bat
+LGM/testLGM.bat
+LGM/src/ProjectUnique/
+LGM/src/ProjectUnique.lua
