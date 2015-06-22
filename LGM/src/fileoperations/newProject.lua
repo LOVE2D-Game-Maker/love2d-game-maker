@@ -78,20 +78,18 @@ end
 	file:close()
 	
 	path.mkdir("ProjectUnique")
-	copydir( workingDir..sep.."ProjectUnique" , Path ..sep.."ProjectUnique"..sep)
+	copydir( 'PU', Path ..sep.."ProjectUnique"..sep)
 
 
 end
 
 function copydir ( dirPath, copyPath )
-    for file in lfs.dir(dirPath) do
+    local files = love.filesystem.getDirectoryItems( dirPath )
+    for i,file in ipairs(files) do
         if file ~= "." and file ~= ".." then
          	local f = dirPath..sep..file
          	local cf = copyPath..sep..file
-            print ("\t=> "..f.." <=")
-            local attr = lfs.attributes (f)
-            assert (type(attr) == "table")
-            if attr.mode == "directory" then
+            if love.filesystem.isDirectory( f ) then
             	lfs.mkdir( cf )
                 copydir (f, cf)
 
@@ -103,9 +101,10 @@ function copydir ( dirPath, copyPath )
 end
 
 function copyfile( filePath, copyPath )
-	local file1 = io.open( filePath, 'r')
+	local file1 = love.filesystem.newFile( filePath)
+    file1:open('r')
 	local file2 = io.open( copyPath, 'w')
-	file2:write( file1:read('*a') )
+	file2:write( file1:read() )
 	file2:flush()
 	file2:close()
 	file1:close()

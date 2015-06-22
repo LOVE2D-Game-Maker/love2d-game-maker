@@ -21,7 +21,7 @@ local assert_arg,assert_string,raise = utils.assert_arg,utils.assert_string,util
 local attrib
 local path = {}
 
-local res,lfs = _G.pcall(_G.require,'lfs')
+local res,lfs = _G.pcall(_G.require,'lib.lfs')
 if res then
     attributes = lfs.attributes
     currentdir = lfs.currentdir
