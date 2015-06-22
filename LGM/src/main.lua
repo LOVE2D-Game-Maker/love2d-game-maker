@@ -1,10 +1,10 @@
 --LÖVE Game Maker
 
---Require ALL the things! :D
+--only works in a .love/exe
 love.filesystem.mount(love.filesystem.getSourceBaseDirectory(), '')
 love.filesystem.mount('PU.zip', 'PU')
 
-
+--Require ALL the things! :D
 require 'libraries.hump' --Load HUMP.
 require 'resources'
 require 'libraries.pl'

@@ -88,6 +88,7 @@ function copydir ( dirPath, copyPath )
     for i,file in ipairs(files) do
         if file ~= "." and file ~= ".." then
          	local f = dirPath..sep..file
+            print('===========> '..f..' <===========')
          	local cf = copyPath..sep..file
             if love.filesystem.isDirectory( f ) then
             	lfs.mkdir( cf )
