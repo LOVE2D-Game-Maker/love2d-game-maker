@@ -1,8 +1,23 @@
 --LÖVE Game Maker
 
+--only works in a .love/exe
+love.filesystem.mount(love.filesystem.getSourceBaseDirectory(), '')
+love.filesystem.mount('PU.zip', 'PU')
+
 --Require ALL the things! :D
 require 'libraries.hump' --Load HUMP.
 require 'resources'
+require 'libraries.pl'
+
+sep = string.match (package.config, "[^\n]+")
+
+lfs = require('lfs')
+
+require('fileoperations.newProject')
+
+testProjectDir = '~'..sep..'Desktop'
+testProjectName = 'test'
+
 --require 'bubble'
 require 'GUI'
 
@@ -18,3 +33,4 @@ function Ternary (cond,val1,val2)
 		end
 	end
 end
+
