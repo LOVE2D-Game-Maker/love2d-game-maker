@@ -1,1 +1,1 @@
-Here's where the various logos for the application should be contained. Both older versions as well as newer/current ones exist, and we're always open to new designs, so if you've got a cool logo, commit it! :D
+Here's where the various logos for the application should be contained. Both older versions as well as newer/current ones exist, and we're always open to new designs! So if you've got a cool logo, commit it! :D

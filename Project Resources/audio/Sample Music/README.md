@@ -1,2 +1,2 @@
-Here's the place to put any sample music you make that kids can use in their games without fear of copyright! They must be released under public domain and be
+Here's the place to put any sample music you make/find that kids can use in their games without fear of copyright! They must be released under public domain and be
 "kid friendly," preferablly lyric-free. Thanks! :)
