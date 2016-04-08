@@ -1,0 +1,33 @@
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Love Game Maker.exe.config
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Love Game Maker.exe
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Love Game Maker.pdb
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\obj\Debug\Love Game Maker.csprojResolveAssemblyReference.cache
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\obj\Debug\Love_Game_Maker.Properties.Resources.resources
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\obj\Debug\Love Game Maker.csproj.GenerateResource.Cache
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\obj\Debug\Love Game Maker.exe
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\obj\Debug\Love Game Maker.pdb
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\Default.template
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Advanced.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Imaging.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\init.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Input.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\camera.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\class.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\gamestate.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\init.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\README.md
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\signal.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\timer.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\vector-light.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\hump\vector.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\CHANGELOG.md
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\init.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\map.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\plugins\box2d.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\plugins\bump.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\libraries\sti\README.md
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\LICENSE
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Object.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Room.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\ProjectUnique\Text.lua
+E:\Users\Graha_000\Documents\GitHub\LGM\Love Game Maker\bin\Debug\Project Templates\Blank\LICENSE.txt
